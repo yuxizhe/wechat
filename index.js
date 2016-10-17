@@ -14,6 +14,8 @@ var app = new Koa()
 
 app.use(function*(next) {
     console.log(this.query)
+    var token = config.wechat.token
+    var signature = this.query.signature
 })
 
 app.listen(3000)
