@@ -2,7 +2,7 @@
     "scripts": {
         "start": "node --harmony index.js"
     },
-    "devDependencies": {
+    "Dependencies": {
         "koa": "^1.2.4",
         "sha1": "^1.1.1"
     }
